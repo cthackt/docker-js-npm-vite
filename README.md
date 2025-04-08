@@ -2,6 +2,8 @@
 
 # Running tests
 
+This command builds a docker image with the code of this repository and runs the repository's tests
+
 ```sh
 ./run_tests.command
 ```
@@ -9,6 +11,7 @@
 # Running a specific test
 
 This example runs all tests matching the name "basic":
+
 ```sh
 ./run_tests.command basic
 ```
