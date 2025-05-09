@@ -1,6 +1,6 @@
 #!/bin/sh
 
-DOCKER_TAG=${1:-test-js-npm-vite}
-DOCKER_DEFAULT_PLATFORM=linux/amd64
+DOCKER_TAG=${1:-my-app}
+DOCKER_DEFAULT_PLATFORM=${2:-linux/amd64}
 
-docker build ${DOCKER_FLAGS:-} -t $DOCKER_TAG .
+docker build --platform $DOCKER_DEFAULT_PLATFORM -t $DOCKER_TAG .
