@@ -3,4 +3,5 @@ WORKDIR /app
 COPY package.json package-lock.json .
 RUN npm install
 COPY . .
+RUN apk add --no-cache dos2unix && dos2unix run_tests.sh
 CMD ["sh"]
