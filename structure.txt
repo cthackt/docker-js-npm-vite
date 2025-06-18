@@ -1,0 +1,55 @@
+Folder PATH listing
+Volume serial number is 9685-DCA4
+C:.
+|   .dockerignore
+|   .gitignore
+|   build_docker.sh
+|   Dockerfile
+|   eslint.config.js
+|   index.html
+|   package-lock.json
+|   package.json
+|   README.md
+|   run_tests.sh
+|   structure.txt
+|   vite.config.js
+|           
++---public
+|       vite.svg
+|       
++---src
+|   |   App.css
+|   |   App.jsx
+|   |   App.test.jsx
+|   |   basic.js
+|   |   index.css
+|   |   main.jsx
+|   |   
+|   +---assets
+|   |       react.svg
+|   |       
+|   +---components
+|   |       TaskForm.jsx
+|   |       TaskItem.jsx
+|   |       TaskList.jsx
+|   |       
+|   +---hooks
+|   |       useLocalStorage.js
+|   |       
+|   +---styles
+|   |       tasks.css
+|   |       
+|   \---utils
+|           dateHelpers.js
+|           taskUtils.js
+|           
+\---test
+    |   basic.test.js
+    |   dateHelpers.test.js
+    |   setupTests.js
+    |   suite.test.js
+    |   tankUtils.test.js
+    |   
+    \---__snapshots__
+            suite.test.js.snap
+            
